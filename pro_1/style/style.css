@@ -3,26 +3,28 @@
      font-family: 'Antonio', sans-serif;
     }
     .sub-titulos {
+      text-decoration: underline;
       margin-bottom: 30px;
       text-align: center;
       font-weight: 500;
       letter-spacing: 0.05em;
     }
+    .conteudo {
+      text-align: center;
+    }
     .header-text {
       margin-left: 10px;
       display: inline-block;
-     max-width: 300px;
+      max-width: 300px;
     }
-    
-    .foto {
-      display: block;
-      text-align: center;
+    .conteudo-1 {
     }
     img {
       border-radius: 4px;
       border: 4px solid #BB2020;
     }
     h1 {
+      text-decoration: underline;
       text-align: center;
       font-size: 2em;
       font-weight: bold;
@@ -35,20 +37,21 @@
     a {
       text-decoration: none;
     }
-  
-    .habilidades {
+    .habilidades-gerais {
+    padding: 0px 0 40px 0;
+    text-align: center; 
     }
-    .habilidades-gerais ul {
-    
-    }
-    .habilidades-gerais ul li {
-      margin-left: 30px;
-      margin-bottom: 30px;
+    .central {
+      margin-right: 40px;
       display: inline-block;
     }
     .super-maior {
       color: #FFEB4D;
       font-size: 2em;
+    }
+    .super-maior:hover {
+      color: #BB2020;
+      font-size: 3em;
     }
     .maior {
       font-size: 1.5em;
@@ -60,16 +63,36 @@
       font-size: 1em;
     }
     .btn-foto {
-      display: inline-block;
-      margin: auto;
+      margin: 40px 0 40px 0;
+      display: block;
+      text-align: center;
     }
     .btn {
-    text-align: center;
+     text-align: center;
      background-color: #BB2020;
      padding: 5px 20px;
-     color: #06111C;
+     color: #FFEB4D;
      text-decoration: none;
      border-radius: 4px;
+    }
+    .btn:hover {
+      color: #06111C;
+    }
+    .acesso {
+      padding: 40px 0;
+      text-align: center;
+    }
+    .acesso li a {
+      padding: 10px;
+      background-color: #BB2020;
+      color: #FFEB4D;
+      border-radius: 4px;
+    } 
+    .acesso li a:hover {
+      color: #06111C;
+    }
+    .acesso li a:active{
+      color: #fff;
     }
     .contato {
       text-align: center;
